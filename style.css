@@ -1,0 +1,74 @@
+/*
+Theme Name: Theme Padma
+Author: Mim
+
+Description: Our default theme for 2020 is designed to take full advantage of the flexibility of the block editor. Organizations and businesses have the ability to create dynamic landing pages with endless layouts using the group and column blocks. The centered content column and fine-tuned typography also makes it perfect for traditional blogs. Complete editor styles give you a good idea of what your content will look like, even before you publish. You can give your site a personal touch by changing the background colors and the accent color in the Customizer. The colors of all elements on your site are automatically calculated based on the colors you pick, ensuring a high, accessible color contrast for your visitors.
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
+Version: 1.0
+
+Text Domain: themepadma
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+*{
+    padding: 0;
+    margin: 0;
+}
+/* header part start */
+.slider{
+    position: absolute;
+}
+/* header part end */
+
+/* logo part start */
+.logo{
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+/* logo part end */
+.menu_1{
+    margin-top: 300px;
+}
+.menu_1 li{
+    padding-right: 10px;
+    padding: 20px 10px;
+    /* display: inline-block;
+    list-style: none; */
+}
+.menu_1 li a{
+    text-decoration: none;
+    color: rgb(5, 9, 53);
+    padding: 15px 10px;
+}
+.menu_1 li a:hover{
+    background-color: aqua;
+    padding: 20px;
+}
+/* hero part start */
+.hero_title{
+    width: 80%;
+    padding-left: 200px;
+}
+/* hero part end */
+.footer_main{
+    height: 400px;
+    background: rgb(44, 43, 43);
+}
+.footer_left{
+    margin-left: 200px;
+    color: aliceblue;
+}
+.footer_right{
+    margin-left: 200px;
+    color: antiquewhite;
+}
+.mm{
+    margin-top: 0;
+}
+.menu-2 li a {
+    padding-right: 20px;
+    color: black;
+    text-decoration: none;
+}
